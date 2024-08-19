@@ -1,0 +1,265 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.Logo{
+    width: 60px;
+}
+
+.Navbar{
+    background-color: rgb(19, 195, 235);
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+
+}
+
+ul li a{
+font-size: 20px;
+font-family: fantasy;
+font-style: italic;
+font-weight: lighter;
+color: aliceblue;
+text-decoration-line: none;
+text-transform: lowercase;
+letter-spacing: 0px;
+}
+
+nav.Navbar ul li{
+    display: inline-block;
+}
+p.Model{
+    background-color: rgb(248, 106, 18);
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    font-size: 30px;
+    text-align: center;
+    border-top: 50px ridge rgb(225, 84, 37);
+    border-right: 50px ridge orange;
+    border-bottom: 50px ridge orchid;
+    border-left: 50px ridge blue;
+    margin-top: 50px ;
+    margin-right: 50px ;
+    margin-bottom: 50px ;
+    margin-left: 50px ;
+    border-radius: 50% ;
+    height: 300px;
+    width: 300px ;
+    
+}
+
+div.bgimage{
+  background-image: url("chipcookies.jpg");  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 85vh;
+}
+div.bgcolour{
+    background-color: rgba(255, 98, 0, 0.509);
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.bgimage  div.bgcolour  h1{
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+
+}
+
+div.bgcolour  div.content  p{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+
+html body h1.Food{
+    color: rgb(245, 18, 18);
+    font-size: medium;
+    text-align: center;
+    margin-top: 20vh;
+    margin-left: 20vh;
+    margin-bottom: 5vh;
+    margin-right: 20vh;
+}
+
+html body p.heading{
+    color: brown;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4rex;
+    text-align: center;
+     margin-left: 3rem;
+    margin-bottom: 2rem;
+    margin-right: 3rem;
+}
+
+html body p.Note{
+    text-align: center;
+    color: brown;
+    font-style: italic;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+html body button.button{
+    text-align: center;
+    background-color: rgb(53, 192, 231);
+    padding-top: 0.7rem;
+    padding-right: 2rem;
+    padding-bottom: 0.7rem;
+    padding-left: 2rem;
+    border-radius: 20px;
+    font-size: 20px;
+    color: aliceblue;
+    border: none;
+    outline: none;
+}
+
+html body div.Buttondiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+html body div.Cardsection{
+     display: flex;
+     justify-content: center;
+     margin-top: 5rem;
+     margin-bottom: 5rem;
+     flex-wrap: wrap;
+}
+
+body div.Cardsection div.card{
+    box-shadow: 1px 1px 10px 2px gray;
+    width: 250px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+div.Cardsection div.card img{
+    width: 100%;
+    border-top-right-radius:5%;
+    border-top-left-radius: 5%;
+    height: 165px;
+}
+
+div.Cardsection div.card div.cardcontent{
+    padding: 1rem;
+}
+
+div.card div.cardcontent p.cakename{
+    color: brown;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+
+div.card div.cardcontent p.Description{
+  margin-bottom: 1.3rem;  
+  color: #333333bd;
+  font-size: 13px;
+}
+
+div.card div.cardcontent button{
+    border-radius: 1px;
+    border-top: 5%;
+     border-radius:2px ;
+     padding-top: 0.7rem;
+     padding-right: 1.2rem;
+     padding-bottom: 0.7rem;
+     padding-left: 1.2rem;
+     background-color: rgb(233, 100, 11);
+     border: none;
+}
+
+div.cardcontent button a{
+    color: white;
+    outline: none;
+    text-decoration: none;
+}
+
+ footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem ;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+body footer div.fleft{
+display: flex;
+}
+
+body footer div.Fright{
+display: flex;
+}
+
+footer div.Fright img{
+    width: 100px;
+}
+
+footer div.fleft p{
+    margin: auto;
+
+}
+
+@media(max-width :450px) {
+    html body h1.Food{
+        margin-left: 5vh;
+        margin-right: 5vh;
+        margin-top: 5vh;
+        font-size: 2rem;
+    }  
+    
+    html body p.Note{
+        margin-left: 5vh;
+        margin-right: 5vh;
+        margin-top: 5vh;
+    }
+
+    footer div.Fright img{
+        width: 30px;
+        }
+
+        footer{
+            padding: 0.2rem 0.2rem ;
+            justify-content: center !important;
+        }
+
+        .Navbar{
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+}
+
+@media (max-width: 350px) {
+        div.bgimage  div.bgcolour  h1{
+            font-size: 2.5rem;
+        }
+
+        div.bgcolour  div.content  p{
+            font-size: 1.5rem;
+        }
+
+        footer div.Fright img{
+        width: 30px;
+        }
+
+        footer{
+            padding: 0.2rem 0.2rem ;
+            justify-content: center !important;
+        }
+
+}
